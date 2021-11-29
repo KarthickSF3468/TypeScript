@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>online course</title>
+        <script src="../Online_Course/script/script.js"></script>
+        <link rel="stylesheet" href="../Online_Course/style/style.css">
+    </head>
+    <body>
+        <div id="main">
+            <button id="newuser" onclick="Detials()">Register</button>
+            <button id="existing" onclick="existinguser()">Login</button>
+            
+        </div>
+        <div id="Detials">
+            <label>Registration</label><br>
+            <input type="text" id="name" placeholder="name">
+            <input type="text" id="age" placeholder="age">
+            <input type="text" id="number" placeholder="Phonenumber">
+            <button onclick="userInfo()">sumbit</button>
+            
+
+        </div>
+        <div id="login">
+            <input type="text" placeholder="UserId" id="UserId">
+            <button onclick="Goin()">click</button>
+
+
+        </div>
+        <div id="option">
+            <button id="newuser" onclick="avaliableCourse()">avaliable_course</button>
+            <button id="existing" onclick="enrolledCourse()">enrolledCourse</button>
+            
+        </div>
+        <div id="course">
+            <select value="avaliable_course" id="subject">
+                <option>Java</option>
+                <option>python</option>
+                <option>Javascript</option>
+                <option>Typescript</option>
+            </select><br>
+            <label>Required Days</label>
+            <input type="text" id="days" placeholder="DaysCount"><br>
+            <button onclick="Register()">click</button>
+            
+
+            
+        </div>
+        <div id="enrolled">
+            <label>EnrolledCourse</label><br>
+            <label id="course"></label><br>
+            <label id="daystotal"></label>
+        </div>
+       
+    </body>
+</html>

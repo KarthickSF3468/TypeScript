@@ -1,0 +1,28 @@
+*
+{
+    background-color:azure;
+}
+#main
+{
+    display:block;
+}
+#Detials
+{
+    display:none;
+}
+#login
+{
+    display:none;
+}
+#course
+{
+    display:none;
+}
+#option
+{
+    display:none;
+}
+#enrolled
+{
+    display: none;
+}
